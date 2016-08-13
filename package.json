@@ -13,6 +13,7 @@
 	"bugs":         "https://github.com/derhuerst/coup-lights/issues",
 	"license":      "ISC",
 	"dependencies": {
+		"colornames": "^1.1.1",
 		"minimist": "^1.2",
 		"random-color": "^1.0.1"
 	}

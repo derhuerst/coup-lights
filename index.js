@@ -2,10 +2,20 @@
 
 const qs = require('querystring')
 const http = require('http')
+const toHex = require('colornames')
 
 
+
+const length3 = /^[0-9a-f]{3}$/i
 
 const lights = (color) => new Promise((yay, nay) => {
+	if ('string' !== typeof color) nay(new Error('color should be a string'))
+
+	if (color[0] === '#') color = color.slice(1)
+	if (toHex(color)) color = toHex(color).slice(1)
+	else if (length3.test(color)) color =
+		color[0] + color[0] + color[1] + color[1] + color[2] + color[2]
+
 	const req = http.request({
 		hostname: '192.168.2.4',
 		port:     80,

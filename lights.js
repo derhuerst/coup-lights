@@ -12,7 +12,7 @@ if (argv.h || argv.help) {
 	process.stdout.write(`\
 Usage: coup-lights [color]
 
-color must be in hex format (e.g. 'ffcc00').
+color can be 6 digits ('ffcc00'), 3 digits ('fc0') or something like 'red'.
 If you don't pass a color, a random one will be picked.\n`)
 	process.exit(0)
 }
