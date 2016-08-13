@@ -1,0 +1,15 @@
+{
+	"name":         "coup-lights",
+	"description":  "Set colorful lighting at co.up Berlin.",
+	"version":      "0.1.0",
+	"bin":          {"lights": "lights.js"},
+	"main":         "index.js",
+	"files":        ["index.js", "lights.js"],
+	"preferGlobal": true,
+	"keywords":     ["co.up", "coup", "berlin", "lighting", "colors", "http"],
+	"author":       "Jannis R <mail@jannisr.de>",
+	"homepage":     "https://github.com/derhuerst/coup-lights",
+	"repository":   "derhuerst/coup-lights",
+	"bugs":         "https://github.com/derhuerst/coup-lights/issues",
+	"license":      "ISC"
+}
