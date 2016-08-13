@@ -11,5 +11,9 @@
 	"homepage":     "https://github.com/derhuerst/coup-lights",
 	"repository":   "derhuerst/coup-lights",
 	"bugs":         "https://github.com/derhuerst/coup-lights/issues",
-	"license":      "ISC"
+	"license":      "ISC",
+	"dependencies": {
+		"minimist": "^1.2",
+		"random-color": "^1.0.1"
+	}
 }
