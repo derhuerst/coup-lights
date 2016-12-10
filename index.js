@@ -11,6 +11,7 @@ const length3 = /^[0-9a-f]{3}$/i
 const lights = (color) => new Promise((yay, nay) => {
 	if ('string' !== typeof color) nay(new Error('color should be a string'))
 
+	if (color.toLowerCase() === 'off') color = '#000'
 	if (color[0] === '#') color = color.slice(1)
 	if (toHex(color)) color = toHex(color).slice(1)
 	else if (length3.test(color)) color =
