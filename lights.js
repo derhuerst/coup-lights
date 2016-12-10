@@ -26,9 +26,6 @@ Examples:
 	process.exit(0)
 }
 
-console.error('argv', argv);
-process.exit(0);
-
 const color = argv._[0] || random().hexString().slice(1)
 lights(color)
 .catch((msg) => {
