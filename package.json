@@ -1,7 +1,7 @@
 {
 	"name":         "coup-lights",
 	"description":  "Set colorful lighting at co.up Berlin.",
-	"version":      "0.1.0",
+	"version":      "0.2.0",
 	"bin":          {"lights": "lights.js"},
 	"main":         "index.js",
 	"files":        ["index.js", "lights.js"],
