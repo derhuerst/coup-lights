@@ -4,6 +4,7 @@
 
 [![npm version](https://img.shields.io/npm/v/coup-lights.svg)](https://www.npmjs.com/package/coup-lights)
 ![ISC-licensed](https://img.shields.io/github/license/derhuerst/coup-lights.svg)
+[![chat on gitter](https://badges.gitter.im/derhuerst.svg)](https://gitter.im/derhuerst)
 
 
 ## Installing
@@ -16,7 +17,7 @@ npm install -g coup-lights
 ## Usage
 
 ```shell
-coup-lights [color]
+lights [color]
 ```
 
 color can be 6 digits (`ffcc00`), 3 digits (`fc0`) or something like `red`.
